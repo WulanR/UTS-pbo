@@ -22,7 +22,7 @@ public class koneksi_file {
        if (koneksi == null){
            Driver driver = new Driver();
            koneksi = (Connection)
-                   DriverManager.getConnection("jdbc:mysql://localhost:3306/db_perpus?zeroDateTimeBehavior=convertToNull", "root", "");
+                   DriverManager.getConnection("jdbc:mysql://localhost:3306/perpus2?zeroDateTimeBehavior=convertToNull", "root", "");
        }
        return koneksi;
    }

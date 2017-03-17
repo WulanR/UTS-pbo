@@ -19,7 +19,7 @@ import java.util.logging.Logger;
  */
 public class KoneksiDB {
     public static Connection setKoneksi(){
-        String konString = "jdbc:mysql://localhost:3306/db_perpus";
+        String konString = "jdbc:mysql://localhost:3306/perpus2";
         Connection koneksi = null;
         try{
             Class.forName("com.mysql.jdbc.Driver");
